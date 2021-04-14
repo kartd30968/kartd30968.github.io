@@ -1,0 +1,128 @@
+<html>
+<head>
+<style>
+table {border: solid 2px;border-collapse: collapse; }
+td, th {border: solid 1px;}
+</style>
+</head>
+<body>
+<table>
+	<thead>
+		<tr>
+			<th></th>
+			<th scope="col">Monday</th>
+			<th scope="col">Tuesday</th>
+			<th scope="col">Wednesday</th>
+			<th scope="col">Thursday</th>
+			<th scope="col">Friday</th>
+			<th scope="col">Saturday</th>
+			<th scope="col">Sunday</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr> <!--table 1st row-->
+			<th scope="row">8:10~9:00</th>
+			<td></td> <!--td = table data-->
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>College English</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr> <!--table 2nd row-->
+			<th scope="row">9:10~10:00</th>
+			<td>Calculus II</td>
+			<td>Digital System Laboratory</td>
+			<td></td>
+			<td></td>
+			<td>College English</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr> <!--table 3rd row-->
+			<th scope="row">10:10~11:00</th>
+			<td>Calculus II</td>
+			<td>Digital System Laboratory</td>
+			<td></td>
+			<td>World Music and Culture </td>
+			<td>Freshman Chinese:the Classics Reading and Interpretation</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr> <!--table 4rd row-->
+			<th scope="row">11:10~12:00</th>
+			<td>Calculus II</td>
+			<td>Digital System Laboratory</td>
+			<td></td>
+			<td>World Music and Culture </td>
+			<td>Freshman Chinese:the Classics Reading and Interpretation</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr> <!--table 5rd row-->
+			<th scope="row">13:10~14:00</th>
+			<td>R.O.C. Constitution</td>
+			<td>Introduction to web programming</td>
+			<td></td>
+			<td>Linear Algebra</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr> <!--table 6rd row-->
+			<th scope="row">14:10~15:00</th>
+			<td>R.O.C. Constitution</td>
+			<td>Digital Systems Design </td>
+			<td>Introduction to web programming</td>
+			<td></td>
+			<td>Linear Algebra</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr> <!--table 7rd row-->
+			<th scope="row">15:10~16:00</th>
+			<td></td>
+			<td>Digital Systems Design </td>
+			<td>Introduction to web programming</td>
+			<td></td>
+			<td>Linear Algebra</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr> <!--table 8rd row-->
+			<th scope="row">16:10~17:00</th>
+			<td></td>
+			<td>Digital Systems Design </td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr> <!--table 9rd row-->
+			<th scope="row">17:10~18:00</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th>18:30~22:10</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tfoot>
+</table>
+</body>
+</html>
