@@ -1,0 +1,60 @@
+<html><head>
+<style>
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+#content {
+	overflow: auto;
+	height: 100%;
+}
+#nav, #feature, #footer {
+	background-color: #efefef;
+	padding: 10px;
+	margin: 10px;
+}
+.column1, .column2, .column3 {
+	background-color: #efefef;
+	float: left;
+	width: 300px;
+	margin: 10px;}
+li {
+	display: inline;
+	padding: 5px;
+}
+</style>
+</head>
+<body>
+	<div id="header">
+		<h1>My favorite games</h1>
+		<div id="nav">
+			<ul>
+				<li><a href="https://kartd30968.github.io/Assignments/midterm.html">Home</a> </li>
+			</ul>
+		</div>
+	</div>
+	<div id="content">
+		<div id="feature">
+			<p></p>
+		</div>
+		<div class="article column1">
+			<h1>MONSTER HUNTER RISE</h1>
+			<p>
+				<img src="https://kartd30968.github.io/MONSTER HUNTER RISE.jpg" width="300" height="200">
+       		</p>
+		</div>
+		<div class="article column2">
+			<h1>LEAGUE OF LEGEND</h1>
+			<p>
+				<img src="https://kartd30968.github.io/lol kda.jpg" width="300" height="200">
+			</p>
+		</div>
+		<div class="article column3">
+			<h1>OVERWATCH</h1>
+			<p>
+				<img src="https://kartd30968.github.io/overwatch.png" width="300" height="200">
+			</p>
+		</div>
+	</div>
+
+</body></html>
