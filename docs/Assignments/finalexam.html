@@ -1,1 +1,105 @@
- 
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: black;
+}
+
+.header {
+  padding: 20px;
+  background: black;
+  text-align: left;
+  letter-spacing: 3px;
+  font-style: oblique;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: red;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: red;
+}
+
+.topnav a {
+  padding: 15px 50px;
+}
+
+.column {   
+  float: left;
+  width: 98%;
+  background-color: black;
+  padding-left: 20px;
+}
+
+img {
+  opacity: 1.0;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+.card {
+  background-color: black;
+  padding: 20px;
+  margin-top: 20px;
+  color: red;
+  outline-style: solid
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: red;
+  margin-top: 20px;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>F1</h1>
+  <a href="https://www.formula1.com/"><img src="https://kartd30968.github.io/images/formula-1-logo-7.png"width="450"style="position:absolute;top:35px;right:80px;"border="0"></a>
+</div>
+
+<div class="topnav">
+  <a style="float:right">Formula 1</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h2>FACTORY TEAM</h2>
+      <a href="https://www.formula1.com/"><img src="https://kartd30968.github.io/images/F1%202021%20lineup.jpg"width="100%"border="0"></a>
+    </div>
+    <div class="card">
+      <h2>GRANDS PRIX</h2>
+	<a href="https://www.formula1.com/"><img src="https://kartd30968.github.io/images/racefansdotnet-2020-11-29-20-08-20-11-e1615799097820.jpg"width="100%"border="0"></a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="#" class="back-to-top">TOP</a>
+</div>
+
+</body>
+</html>
